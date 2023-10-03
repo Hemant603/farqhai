@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+#right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+#left img{
+    height: 100%;
+    width: 1420px;   
+}
+#right img{
+    height: 950px;
+    width: 100%;  
+}
+.text1{
+    color: wheat;
+    position: absolute;
+    top: 30%;
+    font-size: xx-large;
+    left: 93.5%;
+    transform: translate(-50%, -50%);
+  }
+  .text2{
+    position: absolute;
+    top: 30%;
+    font-size: xx-large;
+    left: 5.8%;
+    transform: translate(-50%, -50%);
+  }
